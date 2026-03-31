@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@500;700;800&display=swap');
+
+:root {
+  font-family: 'Nunito', sans-serif;
+  color: #163b66;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background:
+    linear-gradient(120deg, #ddf4ff 0%, #fff3d6 44%, #e6fff6 100%),
+    repeating-linear-gradient(
+      -45deg,
+      #ffffff2e 0,
+      #ffffff2e 10px,
+      transparent 10px,
+      transparent 20px
+    );
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Baloo 2', cursive;
+}

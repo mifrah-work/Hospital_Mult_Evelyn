@@ -271,7 +271,7 @@ const formatDuration = (seconds) => {
 
 const makeStages = (dayIndex = 0) => {
   const selectedPatients = shuffle(sickPatients).slice(0, 2)
-  const selectedBodySet = shuffle(bodySets)[0]
+  const selectedBodySet = bodySets[dayIndex % bodySets.length]
   const pools = DAY_STAGE_POOLS[dayIndex] ?? DAY_STAGE_POOLS[0]
 
   return [
